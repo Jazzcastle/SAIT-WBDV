@@ -1,0 +1,39 @@
+@import 'variables';
+
+/******************************************************************************
+    FULL ART PAGE
+*******************************************************************************/
+
+.art-page {
+    padding: 80px 0;
+}
+
+.art-description {
+    float: left;
+    width: 300px;
+    h1 {
+        font-family: $header-font;
+        font-size: 23px;
+        font-weight: 700;
+        letter-spacing: 1.7px;
+        color: $primary-color;
+        margin-bottom: 30px;
+    }
+    p {
+        font-family: $secondary-font;
+        color: #5a5a5a;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    a {
+        color: $primary-color;
+        transition: 0.1s;
+        &:hover {
+            color: #2d95a7;
+        }
+    }
+}
+
+.full-art {
+    margin-left: 350px;
+}
